@@ -13,10 +13,10 @@ int main() {
         printf("======================================\n el numero:  %f  : es igual a :  %F \n Ambos numeros son iguales \n======================================", numone, numtwo);
     }
     else if(numone < numtwo){
-        printf("======================================\n el numero uno es menor al dos \n======================================");
+        printf("======================================\n el numero %f es menor que %f \n======================================",numone,numtwo);
     }
     else if(numone > numtwo){
-        printf("======================================\n el numero 1 es mayor al 2 \n======================================");
+        printf("======================================\n el numero %f es mayor al %f \n======================================",numone,numtwo);
     }else{
         printf("======================================\n eror \n======================================"); 
     }
